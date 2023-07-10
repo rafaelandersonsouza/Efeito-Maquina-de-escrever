@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina de escrever</title>
+    <style>
+        p{
+            font-family: monospace;
+            border-radius: 4px solid;
+            width: 11ch;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3s steps(11), blinking 0.5s infinite step-end alternate;
+        }
+    @keyframes typing {
+       from {
+        width: 0;
+       } 
+    }
+    @keyframes blinking{
+        50{
+            border-color: transparent;
+        }
+    }
+    </style>
+</head>
+<body>
+    <p>Olá, mundo!</p>
+</body>
+</html>
